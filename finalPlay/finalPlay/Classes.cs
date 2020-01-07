@@ -18,7 +18,26 @@ namespace finalPlay
                 "\nWandering Archer: Comes with a wooden bow and some basic arrows (2-4 damage)." +
                 "\nBanished Brawler: Comes with a set of CCC gear (2-14 damage) and some basic armor.");
             String userChoice = ReadLine();
+            if (userChoice == "Lost Paladin")
+            {
+                WriteLine("Picking up the sword and dawning the armor, Elisabeth was as ready as she could be to face the terrors of the dark.");
 
+            }
+            else if (userChoice == "Forgotten Mage")
+            {
+                WriteLine("Adorning the robes and reading the tome, Elisabeth did her best to remember the simple spells to defend herself from the creatures of the deep.");
+
+            }
+            else if (userChoice == "Wandering Archer")
+            {
+                WriteLine("Snatching up the bow, the girl made use of her own attire and used some of the fabric to make something of an armor.");
+
+            }
+            else if (userChoice == "Banished Brawler")
+            {
+                WriteLine("Tightening the gloves and the botts, the girl was fired up, because it was all she had to keep her going down here.");
+
+            }
         }
     }
 }
