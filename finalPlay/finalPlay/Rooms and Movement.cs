@@ -22,18 +22,21 @@ namespace finalPlay
                     int bossRoom1 = 2;
 
                     Random rnd = new Random();
-                    int item = rnd.Next(1, 30); 
+                    int item = rnd.Next(1, 12);
                     int consumable = rnd.Next(1, 15);
                     int battle = rnd.Next(1, 2);
+
+                    if (item == 1 || item == 3 || item == 5 || item == 7 || item == 9 || item == 11)
+                    {
+                        
+                    }
 
                     //if (item == 20)
                     //{
                     //    if (item < 16)
                     //    {
-
                     //    }
-
-                    }
+                    //}
                 }
             }
         }
