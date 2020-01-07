@@ -19,7 +19,21 @@ namespace finalPlay
                     int room2 = 12;
                     int room3 = 19;
                     int room4 = 24;
-                    int bossRoom1 = 2; 
+                    int bossRoom1 = 2;
+
+                    Random rnd = new Random();
+                    int item = rnd.Next(1, 30); 
+                    int consumable = rnd.Next(1, 15);
+                    int battle = rnd.Next(1, 2);
+
+                    //if (item == 20)
+                    //{
+                    //    if (item < 16)
+                    //    {
+
+                    //    }
+
+                    }
                 }
             }
         }
