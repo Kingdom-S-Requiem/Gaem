@@ -21,7 +21,7 @@ namespace finalPlay
             if (userChoice == "Lost Paladin")
             {
                 WriteLine("Picking up the sword and dawning the armor, Elisabeth was as ready as she could be to face the terrors of the dark.");
-
+                PaladinRoute.displayPaladinRoute();
             }
             else if (userChoice == "Forgotten Mage")
             {
@@ -37,6 +37,10 @@ namespace finalPlay
             {
                 WriteLine("Tightening the gloves and the botts, the girl was fired up, because it was all she had to keep her going down here.");
 
+            }
+            else
+            {
+                WriteLine("Met with choices leaves some at a disadvantage, and Elisabeth was one such person. She went onward without any of the loot, and suffered a fate worse than death.");
             }
         }
     }

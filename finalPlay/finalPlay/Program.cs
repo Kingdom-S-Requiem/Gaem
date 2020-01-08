@@ -17,7 +17,6 @@ namespace finalPlay
             {
                 WriteLine("Very well then, enjoy a wonderful story provided by the team. Venture on, young soul!");
                 Classes.displayClasses();
-
             }
             else if (userInput == "No" || userInput == "no")
             {
