@@ -7,38 +7,11 @@ using System.Threading.Tasks;
 namespace finalPlay
 {
     using static System.Console;
-    class Rooms_and_Movement
+    class PaladinRoute
     {
-        public static void displayRoomAndMovements()
+        public static void displayPaladinRoute()
         {
-            bool playing = true;
-            {
-                while (playing)
-                {
-                    int room1 = 7;
-                    int room2 = 12;
-                    int room3 = 19;
-                    int room4 = 24;
-                    int bossRoom1 = 2;
-
-                    Random rnd = new Random();
-                    int item = rnd.Next(1, 12);
-                    int consumable = rnd.Next(1, 15);
-                    int battle = rnd.Next(1, 2);
-
-                    if (item == 1 || item == 3 || item == 5 || item == 7 || item == 9 || item == 11)
-                    {
-                        
-                    }
-
-                    //if (item == 20)
-                    //{
-                    //    if (item < 16)
-                    //    {
-                    //    }
-                    //}
-                }
-            }
+            WriteLine("Entering the darkness in front of her, she set off in search of anything. ");
         }
     }
 }
