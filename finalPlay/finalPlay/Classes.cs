@@ -21,7 +21,7 @@ namespace finalPlay
             if (userChoice == "Lost Paladin")
             {
                 WriteLine("Picking up the sword and dawning the armor, Elisabeth was as ready as she could be to face the terrors of the dark.");
-                PaladinRoute.displayPaladinRoute();
+                BossBattle.displayBossBattle();
             }
             else if (userChoice == "Forgotten Mage")
             {
