@@ -12,7 +12,7 @@ namespace finalPlay
         public static void displayPaladinRoute()
         {
             WriteLine("Entering the darkness in front of her, she set off in search of anything.");
-            WriteLine("");
+            WriteLine("Next to you, you find a broadsword and a old set of armor. The blade is slighty rusty");
         }
     }
 }
