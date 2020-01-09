@@ -11,7 +11,8 @@ namespace finalPlay
     {
         public static void displayPaladinRoute()
         {
-            WriteLine("Entering the darkness in front of her, she set off in search of anything. ");
+            WriteLine("Entering the darkness in front of her, she set off in search of anything.");
+            WriteLine("");
         }
     }
 }
