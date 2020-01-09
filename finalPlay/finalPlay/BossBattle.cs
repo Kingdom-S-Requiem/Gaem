@@ -20,6 +20,11 @@ namespace finalPlay
             if (userInput == "Ok")
             {
                 WriteLine("'You mortals are as foolish as I thought!'");
+                WriteLine("The demon swiftly ends the tale of the venturous young girl, without a second thought. Maybe in another life, the girl would have persevered and went against the demon, " +
+                    "she would still be here to fight him.");
+                WriteLine("***************");
+                WriteLine("*   Bad End   *");
+                WriteLine("***************");
             }
         }
     }
