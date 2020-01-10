@@ -48,11 +48,11 @@ namespace finalPlay
                             "\n2) Reason");
                         if (userInput == "Attack")
                         {
-
+                            WriteLine();
                         }
                         else if (userInput == "Reason")
                         {
-
+                            WriteLine();
                         }
                     }
                     else if (chanceB == 2)
