@@ -16,6 +16,7 @@ namespace finalPlay
             if (userInput == "Yes" || userInput == "yes")
             {
                 WriteLine("Very well then, enjoy a wonderful story provided by the team. Venture on, young soul!");
+                WriteLine("Please keep in mind that options displayed must be typed exactly, or else the game will not work, and that isn't cool.");
                 Classes.displayClasses();
             }
             else if (userInput == "No" || userInput == "no")
