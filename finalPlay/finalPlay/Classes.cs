@@ -21,27 +21,28 @@ namespace finalPlay
             if (userChoice == "Lost Paladin" || userChoice == "lost paladin")
             {
                 WriteLine("Picking up the sword and dawning the armor, Elisabeth was as ready as she could be to face the terrors of the dark.");
-                BossBattle.displayBossBattle();
+                PaladinRoute.displayPaladinRoute();
             }
             else if (userChoice == "Forgotten Mage")
             {
                 WriteLine("Adorning the robes and reading the tome, Elisabeth did her best to remember the simple spells to defend herself from the creatures of the deep.");
-
+                MageRoute.displayMageRoute();
             }
             else if (userChoice == "Wandering Archer")
             {
                 WriteLine("Snatching up the bow, the girl made use of her own attire and used some of the fabric to make something of an armor.");
-
+                ArcherRoute.displayArcherRoute();
             }
             else if (userChoice == "Banished Brawler")
             {
                 WriteLine("Tightening the gloves and the botts, the girl was fired up, because it was all she had to keep her going down here.");
-
+                BrawlerRoute.displayBrawlerRoute();
             }
             else
             {
                 WriteLine("Met with choices leaves some at a disadvantage, and Elisabeth was one such person. She went onward without any of the loot, and suffered a fate worse than death.");
             }
         }
+
     }
 }

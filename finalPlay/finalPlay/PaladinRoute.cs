@@ -13,7 +13,9 @@ namespace finalPlay
         {
             WriteLine("Entering the darkness in front of her, she set off in search of anything.");
             WriteLine("Next to you there is a broadsword along with an old set of armor. The blade is slighty rusty");
-            WriteLine("Would you like to move forward ");
+            WriteLine("Would you like to move forward?:" +
+                "\n1) Yes" +
+                "\n2) No ");
             String userInput = ReadLine();
             if (userInput == "Yes" || userInput == "yes")
             {
@@ -21,10 +23,8 @@ namespace finalPlay
             }
             else if (userInput == "No" || userInput == "no")
             {
-                WriteLine("Okay, why did you choose this class to begin with bye");
+                WriteLine("Okay, why did you choose this class to begin with? Bye.");
             }
-
-
         }
     }
 }
