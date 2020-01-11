@@ -35,7 +35,12 @@ namespace finalPlay
                     "\n3) Parry");
                 if (userInput == "Dodges")
                 {
-
+                    WriteLine("'Avoiding your fate only gives you more time to realize that it is inevitable, just give up!'");
+                    WriteLine("'In your dreams, devil man!'");
+                    WriteLine("With a quick, desicive blow the demon fell back, and into the endless abyss below him. With daylight breaking through the now tore open ground, it was time for Elisabeth to travel onto another life.");
+                    WriteLine("****************");
+                    WriteLine("*   Good End   *");
+                    WriteLine("****************");
                 }
                 else if (userInput == "Blocks")
                 {
@@ -43,16 +48,42 @@ namespace finalPlay
                     if (chanceB == 1)
                     {
                         WriteLine("A good stance and grip on the weapon that kills stops the incoming blow. Faced with an action to attack or to reason with the demon. It wasn't going to be simple," +
-                            "but nobody said this gig was going to be." +
-                            "\n1) Attack" +
-                            "\n2) Reason");
+                            "but nobody said this gig was going to be. Maybe trying to reason with the devil could work?" +
+                            "\n1) Attack");
                         if (userInput == "Attack")
                         {
-                            WriteLine();
+                            WriteLine("'Well, that was a lot easier than I expected it to be.'");
+                            WriteLine("'I think not! It's going to take more than a simple swipe to kill me!'");
+                            int chanceB2 = rand.Next(1, 2);
+
+                            if (chanceB2 == 1)
+                            {
+                                WriteLine("I see it goes on and on, the madness insuing with each battle. There is a breaking point every person has, and Elisabeth had just found hers.");
+                                WriteLine("This hellish reality will no longer bind her here, rage entangling her soul. With her wrath at hand, she dispelled the demon and left the entire area in shambles.");
+                                WriteLine("In a matter of seconds, the ground from underneath Elisabeth crumbled, and she fell into an endless abyss. In the end, a soul for sacrifice is simply another happening, a requirement almost.");
+                                WriteLine("***********");
+                                WriteLine("*   End   *");
+                                WriteLine("***********");
+                            }
+                            else if (chanceB2 == 2)
+                            {
+                                WriteLine("'Despite your efforts, you won't be making it out of here.'");
+                                WriteLine("And with a swift strike, the tale of Elisabeth the accidental hero comes to a sudden end.");
+                                WriteLine("***************");
+                                WriteLine("*   Bad End   *");
+                                WriteLine("***************");
+                            }
                         }
                         else if (userInput == "Reason")
                         {
-                            WriteLine();
+                            WriteLine("You're words are not enough, maybe if you tried again and used more delightful words, things could work out well?");
+                            if (userInput == "Delightful" || userInput == "delightful")
+                            {
+                                WriteLine("Understanding the proposition, the demon accepts your offer. Elisabeth has made a deal with the devil, safety for the world in turn for a life of 'delightuful living', whatever that means.");
+                                WriteLine("******************");
+                                WriteLine("*   Secret End   *");
+                                WriteLine("******************");
+                            }
                         }
                     }
                     else if (chanceB == 2)
