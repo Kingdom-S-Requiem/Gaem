@@ -40,7 +40,7 @@ namespace finalPlay
             }
             else
             {
-                WriteLine("Met with choices leaves some at a disadvantage, and Elisabeth was one such person. She went onward without any of the loot, and suffered a fate worse than death.");
+                WriteLine("Met with choices, some people are at a disadvantage, and Elisabeth was one such person. She went onward without all of the loot, and suffered a fate worse than death due to her being over encumbered.");
             }
         }
 
