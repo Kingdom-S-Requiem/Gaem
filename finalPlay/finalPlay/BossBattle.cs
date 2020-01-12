@@ -13,7 +13,7 @@ namespace finalPlay
         public static void displayBossBattle()
         {
             Random rand = new Random();
-            int chanceB = rand.Next(1, 2);
+            int chanceB = rand.Next(1, 3);
             WriteLine("'You have just entered the last valid location on earth, this wretched land is set to be desecrated by a devil such as I, and you will NOT stand in my way.'");
             WriteLine("'Getting out of this one is impossible, abandon all hope now and make this easier for yourself.'" +
                 "\n1)'Ok'" +
@@ -56,7 +56,7 @@ namespace finalPlay
                         {
                             WriteLine("'Well, that was a lot easier than I expected it to be.'");
                             WriteLine("'I think not! It's going to take more than a simple swipe to kill me!'");
-                            int chanceB2 = rand.Next(1, 2);
+                            int chanceB2 = rand.Next(1, 3);
 
                             if (chanceB2 == 1)
                             {
@@ -107,7 +107,7 @@ namespace finalPlay
 
                 else if (userInput == "Parry")
                 {
-                    int chanceP = rand.Next(1, 2);
+                    int chanceP = rand.Next(1, 3);
                     if (chanceP == 1) 
                     {
                         WriteLine("Prodigious size alone does not dissuade the sharpened blade. With the devil exposed, the only viable option is to attack!" +
