@@ -19,6 +19,7 @@ namespace finalPlay
             {
                 WriteLine("Very well then, enjoy a wonderful story provided by the team. Venture on, young soul!");
                 WriteLine("Please keep in mind that options displayed must be typed exactly, or else the game will not work, and that isn't cool.");
+                WriteLine("This game is also following a more realistic path for enemies, so it will take only 1-3 shots to kill something from the deep depths.");
                 //After running through the initial setup, this is where it takes you to the classes class (a class houses all of this beautiful code you're seeing, and this one is for classes!).
                 Classes.displayClasses();
             }
