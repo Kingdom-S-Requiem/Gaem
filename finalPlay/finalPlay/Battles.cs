@@ -143,7 +143,7 @@ namespace finalPlay
         {
             WriteLine("The wretch squirms as much as it breathes, and it seems to be pretty squirmish, however it would seem it's not because of a fear tactic. The creature spits on Elisabeth, and then dies due to a stalagmite from earlier in its back. Elisabeth gets dizzy, and then passes out." +
                 "She awakens in what can only be described as the devil's lair.");
-            MageRoute.displayMageRoute2();
+            No.displayMageRoute2();
         }
         public static void displayBattles6()
         {
@@ -152,7 +152,7 @@ namespace finalPlay
                 "\nThe foe comes in for an attack, what's the plan?" +
                 "\n1) tAactk" +
                 "\n2) ");
-            MageRoute.displayMageRoute2();
+            No.displayMageRoute2();
         }
 
         public static void displayBattles7()

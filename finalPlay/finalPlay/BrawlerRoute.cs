@@ -14,14 +14,14 @@ namespace finalPlay
             //In this simple game, I wanted to try and give it some variety. Some of the encounters will be randomly generated, and this is what sets the random modifier to be used later.
             Random rand = new Random();
             WriteLine("Entering the darkness in front of her, she set off in search of anything.");
-            WriteLine("Next to you there is a broadsword along with an old set of armor. The blade is slighty rusty");
+            WriteLine("You find a set of CCC gear next to you");
             WriteLine("Would you like to move forward?:" +
                 "\n1) Yes" +
                 "\n2) No ");
             String userInput = ReadLine();
             if (userInput == "Yes" || userInput == "yes")
             {
-                WriteLine("You shall now embarce on your journey as a palaidn ");
+                WriteLine("You shall now embarce on your journey as a brawler ");
                 WriteLine("Taking a step into the endless black, an unlit, and surprisingly dry torch is available to our heroine. Lighting up the torch, she is faced with a cave system, stalagmites and the likes surround her and the area." +
                     "\nTaking a step forward, Elisabeth is faced with a choice. Head into the deep, dark system ahead of her, or enter the downward spiral that beckons." +
                     "\n1) Go forward" +

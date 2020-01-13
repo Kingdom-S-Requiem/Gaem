@@ -14,14 +14,14 @@ namespace finalPlay
             //In this simple game, I wanted to try and give it some variety. Some of the encounters will be randomly generated, and this is what sets the random modifier to be used later.
             Random rand = new Random();
             WriteLine("Entering the darkness in front of her, she set off in search of anything.");
-            WriteLine("Next to you there is a broadsword along with an old set of armor. The blade is slighty rusty");
+            WriteLine("To your side there is a wooden bow and six arrows");
             WriteLine("Would you like to move forward?:" +
                 "\n1) Yes" +
                 "\n2) No ");
             String userInput = ReadLine();
             if (userInput == "Yes" || userInput == "yes")
             {
-                WriteLine("You shall now embarce on your journey as a palaidn ");
+                WriteLine("You shall now embarce on your journey as a archer ");
                 WriteLine("Taking a step into the endless black, an unlit, and surprisingly dry torch is available to our heroine. Lighting up the torch, she is faced with a cave system, stalagmites and the likes surround her and the area." +
                     "\nTaking a step forward, Elisabeth is faced with a choice. Head into the deep, dark system ahead of her, or enter the downward spiral that beckons." +
                     "\n1) Go forward" +
@@ -117,10 +117,10 @@ namespace finalPlay
                                         {
                                             WriteLine("Hours pass, and once fully rested, the girl awakens. From clear skies to stalagmites in the deep, a reality check almost, but to a reality that doesn't seem real.");
                                             WriteLine("Gathering all gear and moving forward, the water led her to a clearing in what appeared to be more cave. There was a seperate path, but it looked tiny and would most definitely be a challenge to get through." +
-                                                "\n1) Go into the cave" +
+                                                "\n1) Attempt to find the nearest city" +
                                                 "\n2) Go to the path");
                                             userInput = ReadLine();
-                                            if (userInput == "Go into the cave")
+                                            if (userInput == "Find the nearest city")
                                             {
                                                 WriteLine("An endless gray goes on for what feels like miles, the water surrounding seems to become more and more valuable as the time passes. " +
                                                     "\nFaced with the very idea of drought, the young warrior drops to her knees near the river." +
