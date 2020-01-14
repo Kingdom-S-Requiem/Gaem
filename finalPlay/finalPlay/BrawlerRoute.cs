@@ -14,7 +14,7 @@ namespace finalPlay
             //In this simple game, I wanted to try and give it some variety. Some of the encounters will be randomly generated, and this is what sets the random modifier to be used later.
             Random rand = new Random();
             WriteLine("Entering the darkness in front of her, she set off in search of anything.");
-            WriteLine("You find a set of CCC gear next to you");
+            WriteLine("You find a set of CQC gear next to you");
             WriteLine("Would you like to move forward?:" +
                 "\n1) Yes" +
                 "\n2) No ");
