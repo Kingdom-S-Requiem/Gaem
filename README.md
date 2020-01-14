@@ -3,6 +3,6 @@ Hello, and if you're reading this, chances are you are interested in this projec
 
 This is a text based game, meaning options will come up available to be typed out. These options have to be typed out exactly as shown or else the game will not work. Random encounters with death AKA reality can check in, and will result in death. The player can do nothing about this except restart. There is an easter egg ending, you just have to read between the lines to find it. There are also a couple of jokes in here, like when it first prompts you to start the game or not.
 
-Here's the flowchart of work: <img src"Gaem.jpg">height = "400" width ="400">
+Here's the flowchart of work: <img src="Gaem.jpg">height = "400" width ="400">
 
 <a href="https://youtu.be/sVEzv2JQ5_M">Click ME</a>
