@@ -5,4 +5,4 @@ This is a text based game, meaning options will come up available to be typed ou
 
 Here's the flowchart of work: <img src="Gaem.jpg" height = "400" width ="400">
 
-<a herf = "https://youtu.be/sVEzv2JQ5_M"> My video is here</a>
+<a href="https://youtu.be/sVEzv2JQ5_M">Click ME</a>
